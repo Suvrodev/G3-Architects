@@ -56,6 +56,13 @@ a{
     font-weight: 500;
     color: #424242;
     margin-right: 30px;
+    transition: 0.3s;
+}
+.nav_menu li a:hover{
+    background-color: gray;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
 }
 /* nav end */
 
