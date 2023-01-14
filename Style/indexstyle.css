@@ -1,0 +1,94 @@
+/* Common Design Start */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans';
+
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.btn_{
+    width: 180px;
+    margin : auto;
+}
+.btn_primary_{
+    background-color: #FF900E; ;
+    border:0 ;
+    color: white;
+    border-radius: 8px;
+    width: 180px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 30px auto;
+}
+
+
+/* header start */
+.header{
+    width: 100%;
+    background: rgba(255, 144, 14, 0.1);
+}
+
+/* nav start */
+.nav{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav_title{
+    font-size: 45px;
+    font-weight: 700;
+}
+.nav_menu{
+    display: flex;
+}
+.nav_menu li a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #424242;
+    margin-right: 30px;
+}
+/* nav end */
+
+/* Brand New Box Start */
+.Brand_New_Box{
+    width: 862px;
+    background-color: lightgrey;
+    margin: 30px auto 20px auto;
+    text-align: center;
+}
+.Brand_New_Title{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: #131313;
+}
+.Brand_New_desc{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #727272;
+    margin: 20px 0;
+}
+/* Brand New Box End */
+
+/* Banner start */
+.Banner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner_image{
+    width: 1440px;
+    height: 700px;
+}
+/* Banner end */
+/* header end */
