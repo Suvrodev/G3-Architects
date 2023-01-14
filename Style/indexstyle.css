@@ -25,7 +25,7 @@ a{
     height: 64px;
     font-size: 20px;
     font-weight: 600;
-    margin: 30px auto;
+    margin: 0px auto;
 }
 
 
@@ -85,10 +85,58 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 50px;
 }
 .banner_image{
-    width: 1440px;
+    width: 1200px;
     height: 700px;
 }
 /* Banner end */
 /* header end */
+
+/* main start */
+.main{
+    width: 90%;
+    margin: 50px auto;
+    background-color: yellow;
+}
+.Quick_list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:73px ;
+}
+.Quick_list_Image{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+}
+.grid_image_size{
+    width: 342px;
+    height: 342px;
+}
+.Quick_list_Detail{
+    /* background-color: lightslategray; */
+
+}
+.Quick_List_Title{
+    width: 468px;
+    font-size: 45px;
+    color: #727272;
+}
+.bold_span{
+    color: black;
+    font-weight: 700;
+}
+.color_span{
+    color:  #FF900E;;
+    font-weight: 700;
+}
+.Quick_List_Desc{
+    width: 537px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 24px 0;
+}
+/* main end */
