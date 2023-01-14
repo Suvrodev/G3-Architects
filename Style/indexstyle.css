@@ -33,11 +33,13 @@ a{
 .header{
     width: 100%;
     background: rgba(255, 144, 14, 0.1);
+    overflow: hidden;
 }
 
 /* nav start */
 .nav{
     /* background-color: yellow; */
+    margin-top: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -153,6 +155,7 @@ a{
 .Feature{
     margin-top: 100px;
     position: relative;
+    /* overflow: hidden; */
     /* background-color: yellow; */
   
 }
@@ -164,6 +167,16 @@ a{
     /* background-color: lightseagreen; */
     width: 50%;
 
+}
+.Feature_title_and_color{
+    display: flex;
+    gap: 10px;
+}
+.mycolor{
+    width: 5px;
+    height: 100px;
+    background-color: tomato;
+    margin-top: 15px;
 }
 .Feature_Title{
     width: 468px;
@@ -218,8 +231,10 @@ a{
     height: 1059px;
 }
 .Secondary_btn{
-    width: 242px;
+    background-color: red;
+    width: 270px;
     margin: 0 auto;
+  
 }
 .btn_secondary{
     width: 242px;
@@ -228,9 +243,10 @@ a{
     color: white;
     border-radius: 8px;
     padding: 10px 15px;
-    /* position: absolute;
+    position: absolute;
     bottom: 20px;
-    left: 47%; */
+    left: 45%;
+    /* bottom: 0px; */
 }
 .up{
     font-size: 35px;
@@ -277,6 +293,11 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    transition: transform 1s, box-shadow 0.2s ;
+}
+.box:hover{
+    transform: rotate(45deg);
+    box-shadow: 15px 15px 25px black;
 }
 .no-border{
     border: 0;
@@ -326,6 +347,118 @@ a{
     width: 167px;
     height: 50px;
 }
+/* Sponspors end */
+/* main end */
+
+/* MySection start */
+.MySection{
+    /* background-color: tomato; */
+    border: 7px solid teal;
+    margin-top: 50px;
+    padding: 10px;
+    
+}
+.MySection_Title{
+    text-align: center;
+    background-color: lightseagreen;
+    border-radius: 7px;
+    color: white;
+    padding: 5px 10px;
+    margin: 0px 15px 0px 15px;
+    box-shadow: 15px 15px 15px black;
+}
+.MySectionContent{
+    display: flex;
+    padding: 20px;
+}
+
+.MySection_Left{
+    width: 50%;
+    padding: 20px;
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Border{
+    border-top: 35px solid yellow;
+    border-right: 35px solid red;
+    border-bottom: 35px solid green;
+    border-left: 35px solid teal;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    animation: progress 3s linear 0s infinite forwards ;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Border:hover{
+    animation: progress_right 3s linear 0s infinite forwards ;
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    background-color: lightseagreen;
+    border-radius: 50%;
+    animation: updown 3s linear 0s infinite forwards ;
+}
+@keyframes progress {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes progress_right {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+@keyframes updown {
+    0%{
+        transform: scale(1);
+        background-color: lightseagreen;
+    }
+    25%{
+        transform: scale(2);
+        background-color: green;
+    }
+    50%{
+        transform: scale(3);
+        background-color: red;
+    }
+    75%{
+        transform: scale(2);
+        background-color: white ;
+    }
+    100%{
+        transform: scale(1);
+        background-color: lightseagreen ;
+    }
+}
+.MySection_Right{
+    width: 50%;
+    background-color: rgb(84, 196, 117);
+    text-align: center;
+}
+.MySection_Right_Title{
+    color: white;
+    text-shadow: 5px 5px 2px red;
+}
+.youtube_video{
+    width: 450px;
+    height: 300px;
+    border-radius: 15px;
+}
+/* MySection end */
+
+/* footer start */
 .footer{
     width: 90%;
     margin: 60px auto;
@@ -348,5 +481,4 @@ a{
     font-weight: 400;
     font-size: 20px;
 }
-/* Sponspors end */
-/* main end */
+/* Footer end */
