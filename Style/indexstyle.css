@@ -554,6 +554,7 @@ Responsive for Mobile start
 
    /* Feature start */
    .Feature_Content{
+       width: 350px;
        flex-direction: column;
        padding: 10px;
    }
@@ -568,11 +569,18 @@ Responsive for Mobile start
    .feature_detail{
        width: 100%;
       padding: 25px;
+     
+   }
+   .Feature_Cards{
+     width: 350px;
+     
    }
    .feature_card{
-       width: 100%;
+       width: 280px;
+       height: 200px;
        padding: 25px;
        margin: 20px;
+     
    }
    .card_desc{
        width: 100%;
