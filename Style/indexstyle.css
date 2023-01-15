@@ -614,18 +614,23 @@ Responsive for Mobile start
     text-align: center;
  }
  .fact_detail{
-    width: 100%;
+     width: 300px;
      text-align: center;
+     /* background-color: yellow; */
+     margin: 0 auto;
  }
 /* Fact end */
 
 /* work start */
 .Work{
     flex-direction: column;
+    width: 340px;
+    /* background-color: tomato; */
 }
 .box{
-    width: 90%;
-    margin: 10px auto;
+    width: 300px;
+     margin: 10px auto;
+   /* background-color: yellow; */
 }
 /* Work end */
 /* Sponser Start */
